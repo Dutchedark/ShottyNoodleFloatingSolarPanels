@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="BuildingBase">
-    <defName>FloatingSolarGenerator</defName>
+    <defName>SSFloatingSolarGenerator</defName>
     <label>floating solar generator</label>
     <thingClass>Building</thingClass>
     <graphicData>
@@ -14,7 +14,10 @@
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
-    <pathCost>100</pathCost>
+    <pathCost>50</pathCost>
+    <placeWorkers>
+			<li>ShottyNoodleFloatingSolarPanels.PlaceWorker_FloatableSolarPanel</li>
+		</placeWorkers>
     <fillPercent>0.5</fillPercent>
     <castEdgeShadows>false</castEdgeShadows>
     <canOverlapZones>false</canOverlapZones>
