@@ -7,7 +7,7 @@
     <thingClass>Building</thingClass>
     <category>Building</category>
     <graphicData>
-      <texPath>atlas texture</texPath>
+      <texPath>Textures/Buildings/InsulatedPowerConduit_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <linkType>Transmitter</linkType>
       <linkFlags>

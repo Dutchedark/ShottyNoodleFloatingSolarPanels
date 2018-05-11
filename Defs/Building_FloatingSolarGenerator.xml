@@ -5,7 +5,7 @@
     <label>floating solar generator</label>
     <thingClass>Building</thingClass>
     <graphicData>
-      <texPath>texture</texPath>
+      <texPath>Textures/Buildings/FloatingSolarPanel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(4,4)</drawSize>
       <damageData>
