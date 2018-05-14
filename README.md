@@ -5,7 +5,18 @@ This mod allows you trough solar panel research to build Floatable Solar Panels 
 ## Features
 
 - Floatable solar panels
-- Substation to connect to the panels from land
+- Floatable Conduits
+- Substation that can function as switch between floating and land conduits for just a realism purpose right now
+
+## Specifics
+
+- The solar panels are only able to be build on deepwater, they are in itself walkable but very slow so that one can build outwards.
+- The conduits can be build on either deep water or shallow water.
+- this mod would go nicely with rainbeaus bridge mod, if you wanna go for looks.
+
+## Bugs & to-do
+- You can always find me on the rimworld Discord or at SoggyNoodle#6501
+- Let me Know if marshy soil should be included for the conduits
 
 ## Credits
 
