@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguagePack>
+    <SS.OnlyDeepWater>Can only be build on deep water</SS.OnlyDeepWater>
+    <SS.OnlyWater>Can only be build on water</SS.OnlyWater>
+</LanguagePack>

@@ -54,12 +54,15 @@
     <None Include="..\Defs\TerrainDefs.xml">
       <SubType>Designer</SubType>
     </None>
-    <None Include="..\Languages\**" />
+    <None Include="..\Languages\Languages\Keyed\LanguagePack.xml" />
     <None Include="..\Patches\**" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ShottyNoodleFloatingSolarPanels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LanguageData.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
