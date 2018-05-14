@@ -5,7 +5,7 @@
     <label>floating solar generator</label>
     <thingClass>ShottyNoodleFloatingSolarPanels.Building_FloatableSolarPanel</thingClass>
     <graphicData>
-      <texPath>Textures/Buildings/FloatingSolarPanel</texPath>
+      <texPath>Buildings/FloatingSolarPanel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(4,4)</drawSize>
       <damageData>

@@ -17,7 +17,8 @@
     <DebugType>none</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>..\Assemblies\</OutputPath>
-    <DefineConstants></DefineConstants>
+    <DefineConstants>
+    </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -25,7 +26,8 @@
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>..\..\ShottyNoodleFloatingSolarPanels - Release\Assemblies\</OutputPath>
-    <DefineConstants></DefineConstants>
+    <DefineConstants>
+    </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -44,10 +46,16 @@
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
-	<None Include="..\About\**" />
-	<None Include="..\Defs\**" />
-	<None Include="..\Languages\**" />
-	<None Include="..\Patches\**" />
+    <None Include="..\About\**" />
+    <None Include="..\Defs\Building_FloatingConduit.xml" />
+    <None Include="..\Defs\Building_FloatingSolarGenerator.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="..\Defs\TerrainDefs.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="..\Languages\**" />
+    <None Include="..\Patches\**" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ShottyNoodleFloatingSolarPanels.cs" />
@@ -72,5 +80,5 @@ IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Languages" "$(
 IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Sounds" "$(TargetDir)..\Sounds" /S /C /Y /K  /I /Q /D
 IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Textures" "$(TargetDir)..\Textures" /S /C /Y /K /I /Q /D
 IF /I "$(ConfigurationName)" == "Release"; IF EXIST "$(ProjectDir)..\LICENSE"; copy "$(ProjectDir)..\LICENSE" "$(TargetDir)..\LICENSE" /Y</PostBuildEvent>
-	</PropertyGroup>
+  </PropertyGroup>
 </Project>
