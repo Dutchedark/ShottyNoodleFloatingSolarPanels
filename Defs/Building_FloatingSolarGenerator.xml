@@ -13,7 +13,7 @@
       </damageData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
+    <passability>Standable</passability>
     <pathCost>50</pathCost>
     <placeWorkers>
 			<li>ShottyNoodleFloatingSolarPanels.PlaceWorker_FloatableSolarPanel</li>

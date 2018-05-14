@@ -54,7 +54,17 @@ namespace ShottyNoodleFloatingSolarPanels
             {
                 if (terrainDef == TerrainDef.Named("WaterDeep") || terrainDef == TerrainDef.Named("WaterOceanDeep") || terrainDef == TerrainDef.Named("WaterMovingDeep"))
                 {
-                    map.terrainGrid.SetTerrain(base.Position, TerrainDef.Named("UnderPanelWater"));
+                    List<Thing> thingList = base.Position.GetThingList(map);
+                   
+                    foreach(Thing t in thingList)
+                    {
+                                                
+                        IEnumerable<IntVec3> cells = GenAdj.CellsOccupiedBy(t);
+                        foreach(IntVec3 cell in cells)
+                        {
+                            map.terrainGrid.SetTerrain(cell, TerrainDef.Named("UnderPanelWater"));
+                        }
+                    }
                 }
             }
         }

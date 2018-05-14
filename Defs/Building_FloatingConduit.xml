@@ -18,9 +18,9 @@
       </damageData>
     </graphicData>
     <blueprintGraphicData>
-      <texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
+      <texPath>Buildings/InsulatedPowerConduit_Blueprint_Atlas</texPath>
     </blueprintGraphicData>
-    <uiIconPath>Things/Building/Linked/UndergroundPowerConduit_MenuIcon</uiIconPath>
+    <uiIconPath>Buildings/InsulatedPowerConduit_MenuIcon</uiIconPath>
     <building>
 		<ai_chillDestination>false</ai_chillDestination>
 		<isInert>true</isInert>
@@ -47,7 +47,7 @@
       </li>
     </comps>
     <placeWorkers>
-      <li>PlaceWorker_FloatableConduit</li>
+      <li>ShottyNoodleFloatingSolarPanels.PlaceWorker_FloatableConduit</li>
     </placeWorkers>
     <rotatable>false</rotatable>
     <selectable>true</selectable>
