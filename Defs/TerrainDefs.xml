@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<TerrainDef>
+  <defName>UnderPanelWater</defName>
+  <label>deep ocean water under panel</label>
+  <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
+  <waterDepthShader>Map/WaterDepth</waterDepthShader>
+  <edgeType>Water</edgeType>
+  <renderPrecedence>397</renderPrecedence>
+  <pathCost>0</pathCost>
+  <fertility>0</fertility>
+  <affordances>
+    <li>Light</li>
+    <li>Heavy</li>
+  </affordances>
+  <tags>
+    <li>Water</li>
+  </tags>
+  <holdSnow>false</holdSnow>
+</TerrainDef>

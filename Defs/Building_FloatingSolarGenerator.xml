@@ -3,7 +3,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>SSFloatingSolarGenerator</defName>
     <label>floating solar generator</label>
-    <thingClass>Building</thingClass>
+    <thingClass>ShottyNoodleFloatingSolarPanels.Building_FloatableSolarPanel</thingClass>
     <graphicData>
       <texPath>Textures/Buildings/FloatingSolarPanel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
