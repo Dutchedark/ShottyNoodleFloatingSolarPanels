@@ -22,3 +22,9 @@ This mod allows you trough solar panel research to build Floatable Solar Panels 
 
 - Shotty for his noice art
 - Mehni for being a very helpful mod god
+
+
+## Links
+https://ludeon.com/forums/index.php?topic=41498.0
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=1386484554
